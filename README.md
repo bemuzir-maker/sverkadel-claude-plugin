@@ -20,7 +20,7 @@
 
 Проверить подключение: `/mcp` в сессии — сервер `sverkadel` должен быть в списке подключённых.
 
-Сменить ключ (например, после перевыпуска в `/account`): `/plugin` → вкладка **Installed** → `sverkadel` → **Configure options**.
+Сменить ключ (например, после перевыпуска в `/account`) или ввести его, если установка шла из терминала (`claude plugin install`): `/plugin configure sverkadel@sverkadel` в сессии или `/plugin` → вкладка **Installed** → `sverkadel` → **Configure options**.
 
 ## Claude Desktop, Cursor и другие клиенты
 
