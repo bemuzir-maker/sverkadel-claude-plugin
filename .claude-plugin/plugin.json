@@ -1,0 +1,24 @@
+{
+  "name": "sverkadel",
+  "displayName": "СверкаДел",
+  "version": "1.0.0",
+  "description": "Проверка ссылок на арбитражную практику в документах от ИИ: дело есть, суд и дата верны, акт в силе.",
+  "author": {
+    "name": "СверкаДел",
+    "email": "support@sverkadel.ru",
+    "url": "https://sverkadel.ru"
+  },
+  "homepage": "https://sverkadel.ru/mcp-info",
+  "repository": "https://github.com/bemuzir-maker/sverkadel-claude-plugin",
+  "license": "MIT",
+  "keywords": ["legal", "law", "russia", "arbitration", "citations", "юристы", "судебная практика"],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "API-ключ СверкаДел",
+      "description": "Ключ из личного кабинета https://sverkadel.ru/account (вход по email). Хранится в защищённом хранилище системы.",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}

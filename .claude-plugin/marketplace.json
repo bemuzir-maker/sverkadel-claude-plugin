@@ -1,0 +1,15 @@
+{
+  "name": "sverkadel",
+  "description": "Плагины СверкаДел для Claude Code",
+  "owner": {
+    "name": "СверкаДел",
+    "email": "support@sverkadel.ru"
+  },
+  "plugins": [
+    {
+      "name": "sverkadel",
+      "source": "./",
+      "description": "Проверка ссылок на арбитражную практику в документах от ИИ: дело есть, суд и дата верны, акт в силе."
+    }
+  ]
+}

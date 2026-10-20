@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "sverkadel": {
+      "type": "http",
+      "url": "https://sverkadel.ru/mcp",
+      "headers": {
+        "X-API-Key": "${user_config.api_key}"
+      }
+    }
+  }
+}
